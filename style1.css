@@ -1,0 +1,101 @@
+body{
+
+    background-image:url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:antiquewhite
+
+        }
+
+h1{
+    background-color: rgb(97, 31, 172);
+                display: flex;
+                padding: 20px;
+                margin: 20px;
+                border: 2px solid rgb(0, 0, 0);
+                gap: 1px;
+                justify-content: center;
+                align-items: center;
+
+
+
+
+}
+
+
+*{
+			text-decoration: none;
+		}
+		.navbar{
+			background: rgb(117, 0, 255); font-family: calibri; padding-right: 15px;padding-left: 15px; border: 3px solid black
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;
+		}
+		.logo a{
+			font-size:  15px; font-weight: 300; color: black;
+		}
+		li{
+			list-style: none; display: inline-block;
+		}
+		li a{
+			color: white; font-size: 18px; font-weight: bold; margin-right: 40px;
+		}
+		button{
+			background-color: black; margin-left: 50px; border-radius: 10px; padding: 10px; width: 90px;
+		}
+		button a{
+			color: white; font-weight: bold; font-size: 15px;
+		}
+
+
+
+
+
+
+
+
+
+
+#big-box-o-contents{
+
+    margin:15px;
+    padding:20px;
+    border:1px solid black;
+    width:100%px;
+    height:auto;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    box-sizing:border-box;
+    color:rgb(255, 255, 255)
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: center; 
+    gap: 200px;              
+    margin: 15px;           
+}
+
+#content-image{
+    padding:20px;
+    border:1px black;
+    width:500px;
+    box-sizing:border-box;
+
+
+
+
+}
+
+#filler{
+    padding:20px;
+    border:1px solid black;
+    width:500px;
+    box-sizing:border-box;
+    color:rgb(12, 12, 12);
+    font-size: 50px;
+
+}
